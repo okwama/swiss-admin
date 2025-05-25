@@ -31,9 +31,11 @@ const LoginPage: React.FC = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <div className="text-center">
           <div className="flex justify-center">
-            <div className="bg-red-600 text-white font-bold text-2xl px-4 py-2 rounded">
-              SWISS LIFE
-            </div>
+            <img 
+              src="/lg.svg" 
+              alt="SWISS LIFE" 
+              className="h-12 object-contain"
+            />
           </div>
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
             Admin Dashboard
